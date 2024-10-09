@@ -1,0 +1,52 @@
+#navigazione {
+    background-color:transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo {width: 200px;}
+nav li{ 
+    list-style-type:none;
+    margin: 20px;
+    font-style: oblique;
+    font-size: large;
+    font-weight: bolder;
+}
+nav a {color:gray}
+body{background-color:rgb(245, 241, 195)}
+p { 
+    color:grey;
+    font-size: x-large;
+    line-height: 40px;
+    font-weight: bolder;
+    padding: 60px;
+}
+.fotoflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+ }
+   
+.fotoflex img {
+    width: 530px;
+    height: 520px;}
+
+footer{text-align: center;
+       color: gray;
+       font-size: x-large;
+       line-height: 40px;  
+       font-weight: bolder;
+       align-items: flex-end;}
+p a{
+     justify-content: space-around;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     font-size: larger;
+     color: black;
+     font-weight: bold;}
+

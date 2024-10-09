@@ -1,0 +1,52 @@
+#navigazione {
+    background-color:transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo {width: 200px;}
+nav li{ 
+    list-style-type:none;
+    margin: 20px;
+    font-style: oblique;
+    font-size: large;
+    font-weight: bolder;
+}
+nav a {color:grey}
+body{background-color:rgb(245, 241, 195)}
+footer{
+    text-align: center;
+    color: gray;
+    font-size: x-large;
+    line-height: 40px;
+    font-weight: bolder;
+    margin-top: 100px;
+}
+#Moduloprenotazioni{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    cursor: pointer;
+}
+#seleziona_suite{
+    display: none;
+    cursor: pointer;
+}
+#seleziona_stile{
+    display: none;
+    cursor: pointer;
+}
+#tiposuite{cursor: pointer;}
+#stile_camere{cursor: pointer;}
+#date{cursor: pointer;}
+#Moduloprenotazioni label{
+    font-weight: bold;
+    margin: 20px;
+}
+#Prenota{
+    margin-top: 20px;
+    cursor: pointer;}
+
+
